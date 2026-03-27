@@ -4,7 +4,7 @@
 
 ---
 
-> ### 🎮 [立即體驗](https://weddy1225-blip.github.io/AI-English02/))
+> ### 🎮 [立即體驗](https://weddy1225-blip.github.io/AI-English02/)
 
 
 
