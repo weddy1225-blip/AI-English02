@@ -4,16 +4,9 @@
 
 ---
 
-## 🎮 立即體驗 (Live Demo)
+## 🎮 〔立即體驗〕(https://weddy1225-blip.github.io/AI-English02/) 
 
-您可以點擊下方連結直接在瀏覽器中開始遊戲：
 
-<div align="center">
-  <a href="https://[你的使用者名稱.github.io/你的倉庫名稱](https://weddy1225-blip.github.io/AI-English02/)/">
-    <img src="https://img.shields.io/badge/-%E2%96%B6%EF%B8%8F%20%E7%8F%BE%E5%9C%A8%E9%96%8B%E5%A7%8B%E9%81%8A%E6%88%B2-orange?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Start Game">
-  </a>
-  <p><i>(請記得將上方連結換成您的 GitHub Pages 網址)</i></p>
-</div>
 
 > **💡 最佳體驗建議：** > 1. 請使用 **Google Chrome** 或 **Microsoft Edge** 瀏覽器。
 > 2. 進入網頁後，當瀏覽器要求「使用麥克風」時，請點擊 **「允許」**。
