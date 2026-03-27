@@ -2,9 +2,26 @@
 
 這是一個專為英語初學者設計的互動式口說練習網頁。透過「語音通關」作為核心機制，學生必須選定交通工具並精確唸出對應的英文句子，才能解鎖前往野餐的旅程！
 
-## 🎮 遊戲核心機制 (Game Mechanics)
+---
 
-本專案採用 **Web Speech API** 進行即時語音辨識與合成，創造「選單 -> 挑戰 -> 回饋」的完整學習閉環。
+## 🎮 立即體驗 (Live Demo)
+
+您可以點擊下方連結直接在瀏覽器中開始遊戲：
+
+<div align="center">
+  <a href="https://你的使用者名稱.github.io/你的倉庫名稱/">
+    <img src="https://img.shields.io/badge/-%E2%96%B6%EF%B8%8F%20%E7%8F%BE%E5%9C%A8%E9%96%8B%E5%A7%8B%E9%81%8A%E6%88%B2-orange?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Start Game">
+  </a>
+  <p><i>(請記得將上方連結換成您的 GitHub Pages 網址)</i></p>
+</div>
+
+> **💡 最佳體驗建議：** > 1. 請使用 **Google Chrome** 或 **Microsoft Edge** 瀏覽器。
+> 2. 進入網頁後，當瀏覽器要求「使用麥克風」時，請點擊 **「允許」**。
+> 3. 確保在安靜的環境下進行挑戰，辨識效果會更好喔！
+
+---
+
+## 📖 遊戲互動流程 (Interaction Flow)
 
 ### 1. 介面選擇 (Interface)
 使用者從四種醒目的交通工具大方框中挑選出發方式：
@@ -14,38 +31,42 @@
 * 🚇 **MRT** (捷運)
 
 ### 2. 隨機挑戰 (Random Challenge)
-點擊方框後，系統會從資料庫中隨機派發不同難度的句型，例如：
-* **Easy:** "Let's take the MRT."
-* **Hard:** "Taking the MRT is the fastest way to get there!"
+點擊方框後，系統會從資料庫中隨機派發不同難度的句型：
+* **★ 難度一 (Easy):** "Let's take the bus."
+* **★★ 難度二 (Medium):** "We can go to the park by bus."
+* **★★★ 難度三 (Hard):** "Taking the bus is a fun way to travel!"
 
-### 3. 語音通關與回饋 (Voice Unlock)
-* **辨識系統：** 學生點擊麥克風按鈕後朗讀，系統會即時比對發音準確度。
-* **雙重回饋：** 挑戰成功後，系統會結合「隨機鼓勵語」與「旅程期待語」，並透過 TTS (Text-to-Speech) 語音合成技術大聲唸出，增加互動趣味感。
+### 3. 語音通關與雙重回饋 (Voice Unlock & Rewards)
+* **精準辨識：** 系統會即時比對學生朗讀的音軌與目標句子。
+* **隨機獎勵：** 挑戰成功後，系統會組合「隨機鼓勵」+「旅程期待」語句。
+  * *例如："Excellent speaking! The sun is shining, let's go find a great spot on the grass!"*
+* **語音合成 (TTS)：** 除了文字顯示，電腦也會自動朗讀出這段回饋語，強化聽力練習。
 
 ---
 
 ## 🛠️ 技術架構 (Tech Stack)
 
-* **Frontend:** HTML5, CSS3 (Flexbox 佈局, 動畫效果)
-* **Logic:** Vanilla JavaScript
-* **APIs:** * `Web Speech API (SpeechRecognition)`: 用於語音辨識。
-  * `Web Speech API (SpeechSynthesis)`: 用於語音合成回饋。
+* **Frontend:** HTML5 / CSS3 (採用 Flexbox 響應式佈局)
+* **Logic:** Vanilla JavaScript (ES6+)
+* **APIs:** * `Web Speech API (SpeechRecognition)`: 用於實現即時語音辨識功能。
+  * `Web Speech API (SpeechSynthesis)`: 用於實現語音合成 (TTS) 回饋。
 
 ---
 
-## 🚀 如何部署至 GitHub Pages
+## 🚀 如何部署至自己的 GitHub
 
-1. 將 `index.html` 上傳至 GitHub 倉庫 (Repository)。
-2. 進入 **Settings > Pages**。
-3. 在 Branch 部分選擇 `main` 並點擊 **Save**。
-4. 等待幾分鐘後，即可透過產生的 HTTPS 網址開始練習。
-
-> **⚠️ 注意事項：** > 由於瀏覽器安全性限制，語音辨識功能必須在 **HTTPS** 安全連線環境下執行。若直接雙擊本地 `index.html` 檔案開啟，部分瀏覽器可能無法正常調用麥克風。
+1. **建立倉庫：** 在 GitHub 建立一個新 Repository。
+2. **上傳檔案：** 將 `index.html` 上傳至該倉庫。
+3. **啟動頁面：** * 進入 **Settings > Pages**。
+   * Branch 選擇 `main`，Folder 選擇 `/(root)`。
+   * 點擊 **Save**。
+4. **獲取網址：** 大約 1 分鐘後，即可獲得專屬的 `https://` 網址。
 
 ---
 
-## 💡 開發初衷
-本專案旨在解決傳統英語學習中「不敢開口」的問題。透過簡潔的視覺設計與即時的語音回饋，讓學生在像遊戲一樣的環境中，自然地練習交通工具相關句型，提升口說自信心。
+## 💡 開發初衷 (Inspiration)
+
+本專案旨在解決傳統英語學習中「不敢開口」的問題。透過簡潔的視覺設計、直觀的點擊回饋與 AI 語音技術，讓學習者在充滿趣味的「野餐冒險」情境中，自然地練習交通工具相關句型，建立口說自信心。
 
 ---
 
