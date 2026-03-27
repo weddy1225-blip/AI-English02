@@ -10,7 +10,7 @@
 
 <div align="center">
   <a href="https://你的使用者名稱.github.io/你的倉庫名稱/">
-    <img src="https://img.shields.io/badge/-%E2%96%B6%EF%B8%8F%20%E7%8F%BE%E5%9C%A8%E9%96%8B%E5%A7%8B%E9%81%8A%E6%88%B2-orange?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Start Game">
+    <img src="[https://img.shields.io/badge/-%E2%96%B6%EF%B8%8F%20%E7%8F%BE%E5%9C%A8%E9%96%8B%E5%A7%8B%E9%81%8A%E6%88%B2-orange?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Start Game](https://weddy1225-blip.github.io/AI-English02/)">
   </a>
   <p><i>(請記得將上方連結換成您的 GitHub Pages 網址)</i></p>
 </div>
