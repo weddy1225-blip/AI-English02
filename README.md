@@ -4,7 +4,7 @@
 
 ---
 
-> ### 🎮 [立即體驗]([https://你的使用者名稱.github.io/你的倉庫名稱](https://weddy1225-blip.github.io/AI-English02/)/)
+> ### 🎮 [立即體驗](https://weddy1225-blip.github.io/AI-English02/)/)
 
 
 
